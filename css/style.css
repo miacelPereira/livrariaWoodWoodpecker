@@ -1,0 +1,702 @@
+/*---------------- CSS ----------------*/
+/*--------------- CORES ---------------*/
+/* PADRÃO = #ffdd00;
+   HOVER = #e5c607; 
+   BOTÔES = #b79e01;
+   TEXTOS = #444444;
+   MARGENS = #ededed;
+ */
+body{
+    margin:0;
+    padding: 0;
+}
+/*---------------- MODAL ----------------*/
+#containerModalHome{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+#contentModalHome{
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+#closeModalHome{
+    width: 50px;
+    height: 30px;
+    background-image: url(../image/closered.png);
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-left: 450px;
+}
+#infoModalHome{
+    text-align: center;
+}   
+/*---------------- HEADER ----------------*/
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #ffdd00;
+    z-index: 2;
+    position: fixed;
+}
+#container_header{
+    width: 1200px;
+    height: 80px;
+    padding-top: 20px;
+    background-color: #ffdd00;
+    margin: auto;
+}
+#logo_header{
+    width: 100px;
+    height: 60px;
+    margin-left: -65px;
+    float: left;
+}
+#logo_image_header{
+    width: 100px;
+    height: 60px;
+}
+#nav_header{
+    width: 660px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 0px;  
+    float: left;
+}
+.item_menu_header{
+    width: 86px;
+    height: 60px;
+    margin-left: 8px;
+    text-align: center;
+    float:left;
+    font-family: century gothic;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+.item_menu_header:hover{
+    background-color: #e5c607;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+
+#autentica_header{
+    width: 400px;
+    height: 80px;
+    margin-left: 70px;
+    float: left;
+}
+.item_autentica_header{
+    width: 180px;
+    height: 80px;
+    margin-top: -10px;
+    float: left;
+}
+.txtAutentica{
+    width:150px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+#btnHeader{
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #415982;
+    color: #ffffff;
+    margin-top: 23px;
+    margin-left: -13px;
+}
+#btnHeader:hover{
+    color: #ffffff;
+    background-color: #415982;
+    cursor: pointer;
+}
+
+/*---------------- BUSCA  ----------------*/
+#frmBusca{
+    height: 40px;
+    margin-top: 20px;
+}
+#txtBusca{
+    width: 150px;
+    height: 30px;
+    float: left;
+}
+#btnBusca{
+    width: 40px;
+    height: 30px;
+    float: left;
+    margin-left: 5px;
+    background-image: url(../image/busca.png);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+/*---------------- CONTAINER  ----------------*/
+.container_site{
+    width: 1200px;
+    min-height: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.container_content{
+    width: 1100px;
+    min-height: 1000px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 100px;
+    float:left;
+}
+/*---------------- MENU_CONTAINER  ----------------*/
+#menu_container_content{
+    width: 200px;
+    height: 600px;
+    border-right: 0.5px solid #ededed;
+    float: left;
+}
+.menu_container_item{
+    width: 190px;
+    height: 50px;
+    background-color: #ffffff;
+    font-size: 20px;
+    border-bottom: 0.5px solid #ededed;
+    margin-left: -40px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 1px;
+    list-style: none;
+    font-family: century gothic;
+}
+.menu_container_item:hover{
+    width: 200px;
+    background-color: #e5e5e5;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+.menu_container_item:hover > #submenuHome{
+    display: block;  
+}
+#submenuHome{
+    width: 190px;
+    height: auto;
+    background-color: #ffffff;
+    margin-left: 200px;
+    margin-top: -50px;
+    z-index: 999;
+    position: absolute;
+    display: none;
+    padding: 0;
+}
+#submenuHome li{
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 0.5px solid #ededed;
+    line-height: 50px;
+    text-align: center;
+    list-style: none;
+    font-family: century gothic;
+}
+#submenuHome li:hover{
+    background-color: #e5e5e5;
+    cursor: pointer;
+
+}
+/*---------------- CONTEUDO  ----------------*/
+#section_produto_container_content{
+    width: 100%;
+    height: 550px;
+    margin-top: 30px;
+}
+.produto{
+    width: 256px;
+    height: 310px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-left: 0.5px solid #cbcbcb;
+    border-right: 0.5px solid #cbcbcb;
+    float: left;
+}
+.produto:hover{
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+.produto_imagem{
+    width: 140px;
+    height: 160px;
+    margin-top: 4px;
+    margin: auto;
+}
+.img_produto_home{
+    width: 140px;
+    height: 160px;
+}
+.detalhes_produto{
+    width: 250px;
+    height: 120px;
+}
+.descricaoLivro_home{
+    width: 70px;
+    height: 28px;
+    margin-top: 8px;
+    margin-left: 5px;
+    float: left;
+    font-weight: 600;
+}
+.descricaoLivroResposta_home{
+    width: 170px;
+    height: 28px;
+    margin-top: 8px;
+    margin-left: 5px;
+    color: #444444;
+    font-size: 15px;
+    float: left;
+}
+.detalhesDescricaoLivro_home{
+    width: 14px;
+    height: 28px;
+    padding-left: 160px;
+}
+.detalhesDescricaoLivro_home>a{
+    color: #0000bf;
+}
+/*---------------- REDES SOCIAIS  ----------------*/
+#redes_sociais{
+    width: 40px;
+    height: 130px;
+    margin-top: 302px;
+    margin-left: 1120px;
+    float:left;
+    position: fixed;
+    
+}
+.rede_social{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+
+}
+.img_redesSociais{
+    width: 30px;
+    height: 30px;
+}
+.img_redesSociais:hover{
+    cursor: pointer;
+}
+/*---------------- AUTOR_DESTAQUE  ----------------*/
+#autor_destaque{
+    width: 1200px;
+    height: 470px;
+    padding-top: 150px;
+}
+#image_autor{
+    width: 280px;
+    float: left;
+}
+.image_autor{
+    width: 300px;
+    height: 420px;
+}
+/*---------------- DESCRIÇÃO AUTOR DESTAQUE  ----------------*/
+#descricao_autor_destaque{
+    width: 775px;
+    height: 700px;
+    overflow: auto;
+    margin-left: 50px;
+    float: left;
+}
+#nome_autor{
+    width: 750px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.container_info_autor{
+    width: 650px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.info_autor{
+    width: 150px;
+    height: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+    float: left;
+}
+.info_autor_respostas{
+    width: 450px;
+    height: 30px;
+    color: #444444;
+    margin-left: 200px;
+}
+#descricao_autor{
+    width: 550px;
+    height: 200px;
+    padding-top: 10px;
+    color: #444444;
+    border-top: 0.5px solid #ededed;
+}
+/*---------------- LIVROS AUTOR  ----------------*/
+#section_livrosAutorDestaque{
+    width: 900px;
+    height: 250px;
+    margin: auto;
+    
+}
+.img_livroAutor{
+    width: 170px;
+    height: 230px;
+    border: 1px solid #cecece;
+}
+.livroAutorDestaque{
+    width: 170px;
+    height: 290px;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: left;
+}
+.descricao_Autordestaque{
+    text-align: center;
+    color: #444444;
+    font-size: 15px;
+}
+.livroAutorDestaque:hover{
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+/*---------------- LIVRO DO MÊS  ----------------*/
+#livroMes{
+    width: 1100px;
+    height: 950px;
+    border: 0.1px solid #ffffff;
+}
+#livroMes_titulo{
+    width: 750px;
+    height: 100px;
+    border-bottom: 0.5px solid #ededed;
+    text-align: center;
+    line-height: 170px;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#livroMes_autor{
+    width: 750px;
+    height: 40px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 15px;
+    margin: auto;
+}
+#livroMes_img{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid #000000;
+}
+#img_livroMes{
+    width: 300px;
+    height: 400px;
+}
+#livroMes_descricao{
+    width: 900px;
+    height: 250px;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 50px;
+}
+/*---------------- FALE CONOSCO  ----------------*/
+#container_fale_conosco{
+    width: 1100px;
+    height: 850px;
+    padding-top: 100px;
+}
+#fale_conosco{
+    width: 500px;
+    margin: auto;
+    
+}
+#titulo_faleConosco{
+    margin-top: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    border-bottom: 1px solid #ededed;
+}
+#textFaleConosco{
+    width: 410px;
+    height: auto;
+    text-align: right;
+    padding-right: 45px;
+    color: #444444;
+    float: left;
+}
+#inf_FaleConosco{
+    width: 800px;
+    margin-top: 35px;
+    height: auto;
+    float: left;
+}
+.txtfaleConosco{
+    width: 250px;
+    height: 25px;
+    margin-bottom: 15px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+}
+.obrigatorio_FaleConosco{
+    color: #ff6d6d;
+}
+.select_sexo{
+    height: 25px;
+}
+#btn_frmFaleConosco{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #415982;
+    border: 0px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+#btn_frmFaleConosco:hover{
+    cursor: pointer;
+}
+#txtSugestoes{
+    height: 70px;
+    overflow: scroll;
+}
+/*---------------- NOSSAS LOJAS  ----------------*/
+#container_nossasLojas{
+    width: 1100px;
+    height: 1100px;
+    padding-top: 100px;
+}
+#menu_nossasLojas{
+    width: 250px;
+    height: 900px;
+    margin-top: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    float: left;
+    box-shadow: 5px 0px 8px #d1d1d1;
+}
+.containerContent_menuNossasLojas{
+    width: 250px;
+    height: 160px;
+    padding-top: 10px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.image_menuNossasLojas{
+    width: 100%;
+    height: 50px;
+}
+.img_menuNossasLojas{
+    width: 50px;
+    height: 50px;
+}
+.title_menuNossasLojas{
+    width: 100%;
+    height: 20px;
+    font-size: 12px;
+}
+.text_menuNossasLojas{
+    width: 100%;
+    height: 70px;
+    font-size: 12px;
+    color: #666666;
+}
+#mapa_nossasLojas{
+    width: 850px;
+    height: 900px;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+#map {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.containerContent_menuNossasLojas:hover{
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+/*---------------- PROMOÇÃO  ----------------*/
+#container_promocao{
+    width: 1100px;
+    min-height: 900px;
+    height: auto;
+    overflow: hidden;
+    padding-top: 100px;
+}
+#img_promocao{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 50px;
+}
+#imgPromocao{
+    width: 1100px;
+    height: 350px;
+}
+#promocao_section{
+    width: 1100px;
+    min-height: 900px;
+    height: auto;
+    overflow: hidden;
+}
+.item_promocao{
+    width: 330px;
+    height: 375px;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    padding-top: 25px; 
+    
+}
+.item_promocao:hover{
+    cursor: pointer;
+    background-color: #efefef;
+    
+}
+.imgLivroPromacao{
+    width: 200px;
+    height: 250px;
+}
+.imgPromocao{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+}
+.descricaoLivro_promocao{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    float: left;
+}
+.descricaoLivroResposta_promocao{
+    width: 230px;
+    height: 30px;
+    text-align: left;
+    float: left;
+}
+.preçoOriginal{
+    text-decoration:line-through;
+}
+.preçoDesconto{
+    margin-left: 15px;
+    color: red;
+    font-weight: 900;
+    font-size: 19px;
+}
+/*---------------- SOBRE  ----------------*/
+#section_sobre{
+    width: 1100px;
+    height: 1200px;
+    padding-top: 100px;
+    text-align: center;
+}
+#figure_sobre_sede{
+    width: 1100px;
+    height: 350px;
+    margin-left: 0px;
+    
+}
+#descrição_sobre{
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    font-size: 17px; 
+    padding: 50px;
+}
+#container_info_sobre{
+    width: 1040px;
+    height: 150px;  
+    padding: 30px;
+}
+.content_info_sobre{
+    width: 305px;
+    height: 150px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+.figure_info_sobre{
+    width: auto;
+    height: 65px;
+}
+.img_sobre_info{
+    width: 60px;
+    height: 60px;
+}
+.desc_info_sobre{
+    height: 63px;
+    font-size: 20px;
+    color: #0000bf;
+    padding-top: 5px;
+    font-weight: 400;
+    border-top: 2px solid #0000bf;
+}
+#agradecimentos_sobre{
+    width: 1100px;
+    height: 300px;
+    margin-top: 240px;
+    margin-left: -30px;
+    color: #909090;
+}
+#agradecimento_sobre{
+    text-decoration: none;
+    font-style: normal;
+    font-size: 25px;
+}
+.img_agradecimento_sobre{
+    width: 270px;
+    height: 80px;
+    float: left;
+}
+.adradecimento_sobre{
+    max-width: 120px;
+    max-height: 80px;
+}
+/*---------------- SLIDER  ----------------*/
+#slider_container{
+    width: 100%;
+    height: 300px;
+}
+.img_slider{
+    width: 1100px;
+    height: 300px;
+}
+/*---------------- FOOTER  ----------------*/
+footer{
+    width: 1200px;
+    height: 150px;
+    margin: auto;
+}
+.footer{
+    width: 1100px;
+    height: 150px;
+    background-color: #ffdd00;
+}

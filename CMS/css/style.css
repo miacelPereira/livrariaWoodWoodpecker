@@ -1,0 +1,1195 @@
+/***** CSS *****/
+body{
+	width: 100%;
+	height: 100%;
+}
+main{
+	width: 1200px;
+	min-height: 900px;
+	border-radius: 18px;
+	border: 1px solid #000000;
+	margin: auto;
+}
+/* Modal */
+#containerModalFale{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+#modalFaleConosco{
+    width: 800px;
+    height: 600px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 5%;
+}
+#ContentmodalFaleConosco{
+    width: 800px;
+    height: 570px;
+    margin: auto;
+}
+#closeModal{
+    width: 50px;
+    height: 30px;
+    margin-left: 750px;
+    background-image: url(../image/closeModal.png);
+    background-position: center;
+    background-size: 65% 90%;
+    background-repeat: no-repeat;
+}
+#closeModal:hover{
+    background-color: red;
+    background-image: url(../image/closeModalHover.png);
+    cursor: pointer;
+}
+#closeModalUserAlter{
+    width: 50px;
+    height: 30px;
+    margin-left: 550px;
+    background-image: url(../image/closeModal.png);
+    background-position: center;
+    background-size: 65% 90%;
+    background-repeat: no-repeat;
+}
+#closeModalUserAlter:hover{
+    background-color: red;
+    background-image: url(../image/closeModalHover.png);
+    cursor: pointer;
+}
+#modalNivelUsuario{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+    position: fixed;
+    padding-top: 100px;
+    display: none;
+
+}
+#contentModalNivelUsuario{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background-color: #ffffff;
+}
+#containerModalEditUser{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+#modalEdituser{
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #ffffff;
+}
+#containerModalEdit{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+#contentModalEdit{
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #ffffff;
+}
+#auxModalEditLoja{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #ffffff;
+}
+#closeModalEditLoja{
+    width: 50px;
+    height: 30px;
+    margin-left: 750px;
+    background-image: url(../image/closeModal.png);
+    background-position: center;
+    background-size: 65% 90%;
+    background-repeat: no-repeat;
+}
+#closeModalEditLoja:hover{
+    background-color: red;
+    background-image: url(../image/closeModalHover.png);
+    cursor: pointer;
+}
+
+#containerModalViewLoja{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+#contentModalViewLoja{
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #ffffff;
+}
+#auxModalViewLoja{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #ffffff;
+}
+#closeModalViewLoja{
+    width: 50px;
+    height: 30px;
+    margin-left: 750px;
+    background-image: url(../image/closeModal.png);
+    background-position: center;
+    background-size: 65% 90%;
+    background-repeat: no-repeat;
+}
+#closeModalViewLoja:hover{
+    background-color: red;
+    background-image: url(../image/closeModalHover.png);
+    cursor: pointer;
+}
+
+#containerModalEditAutor{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+#contentModalEditAutor{
+    width: 800px;
+    height: 750px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+#contentModalEditAutor h1{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#contentModalEditAutor tr{
+    height: 50px;
+}
+#auxModalEditAutor{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+#closeModalEditAutor{
+    width: 50px;
+    height: 30px;
+    margin-left: 750px;
+    background-image: url(../image/closeModal.png);
+    background-position: center;
+    background-size: 65% 90%;
+    background-repeat: no-repeat;
+}
+#closeModalEditAutor:hover{
+    background-color: red;
+    background-image: url(../image/closeModalHover.png);
+    cursor: pointer;
+}
+
+#modalEditSobre{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+#contentModalEditSobre{
+    width: 800px;
+    height: 750px;
+    margin: auto;
+    background-color: #ffffff;
+}
+#contentModalEditSobre h1{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#contentModalEditSobre table{
+    margin: auto;
+}
+#auxModalEditSobre{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+#closeModalEditSobre{
+    width: 50px;
+    height: 30px;
+    margin-left: 750px;
+    background-image: url(../image/closeModal.png);
+    background-position: center;
+    background-size: 65% 90%;
+    background-repeat: no-repeat;
+}
+#closeModalEditSobre:hover{
+    background-color: red;
+    background-image: url(../image/closeModalHover.png);
+    cursor: pointer;
+}
+
+#modalEditPromo{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+#contentModalEditPromo{
+    width: 800px;
+    height: 750px;
+    margin: auto;
+    background-color: #ffffff;
+}
+#contentModalEditPromo h1{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#contentModalEditPromo table{
+    margin: auto;
+    line-height: 50px;
+}
+#auxModalEditPromo{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+#closeModalEditPromo{
+    width: 50px;
+    height: 30px;
+    margin-left: 750px;
+    background-image: url(../image/closeModal.png);
+    background-position: center;
+    background-size: 65% 90%;
+    background-repeat: no-repeat;
+}
+#closeModalEditPromo:hover{
+    background-color: red;
+    background-image: url(../image/closeModalHover.png);
+    cursor: pointer;
+}
+
+#containerModalSubCat{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+#containerAuxSubCat{
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: 200px;
+    text-align: center;
+}
+#closeModalSubCat{
+    width: 50px;
+    height: 30px;
+    margin-left: 350px;
+    background-image: url(../image/closeModal.png);
+    background-position: center;
+    background-size: 65% 90%;
+    background-repeat: no-repeat;
+}
+#closeModalSubCat:hover{
+    background-color: red;
+    background-image: url(../image/closeModalHover.png);
+    cursor: pointer;
+}
+#contentModalSubCat{
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    text-align: center;
+}
+#contentModalSubCat h1{
+    font-size: 25px;
+}
+#contentModalSubCat table{
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+#contentModalSubCat tr{
+    height: 50px;
+}
+#btnEditSubCat{
+    width: 100px;
+    padding: 15px;
+    height: 45px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    background-color: #415982;
+    color: #ffffff;
+}
+
+#auxModalEditLivro{
+	width: 650px;
+	height: auto;
+	margin: auto;
+	background-color: #ffffff;
+	margin-top: 50px;
+	text-align: center;
+}
+#closeModalEditLivro{
+	width: 50px;
+	height: 30px;
+	margin-left: 600px;
+	background-image: url(../image/closeModal.png);
+	background-position: center;
+	background-size: 65% 90%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+#closeModalEditLivro:hover{
+    background-color: red;
+    background-image: url(../image/closeModalHover.png);
+
+}
+#auxModalEditLivro h1{
+    font-size: 30px;
+	margin-bottom: 25px;
+}
+#auxModalEditLivro table{
+	margin: auto;
+	height: 500px;
+}
+#auxModalEditLivro tr{
+	height: 50px;
+	line-height: 50px;
+}
+/*********************************************/
+/* Cabeçalho */
+header{
+	width: 1200px;
+	height: 150px;
+	background-color: #415982;
+    color: #ffffff;
+	border-top-right-radius: 18px;
+	border-top-left-radius: 18px;
+}
+#imgHome{
+    width: 100%;
+    height: 700px;
+}
+#imgHome{
+    width: 700px;
+    height: 500px;
+    margin-left: 220px;
+    margin-top: 200px;
+}
+#title_header{
+	width: 500px;
+	height: 100%;
+	margin-left: 50px;
+	font-size: 20px;
+	line-height: 150px;
+	float: left;
+}
+#cms_title{
+	font-size: 40px;
+	font-weight: 1000;
+}
+#logo_header{
+	width: 300px;
+	height: 100px;
+	margin-top: 25px;
+	margin-left: 350px;
+	float: left;
+}
+#img_logo_header{
+    width: 150px;
+	height: 110px;
+    margin-left: 75px;
+}
+/* Fim do Cabeçalho */
+/* Menu do site */
+#option_cms{
+    width: 1200px;
+    height: 150px;
+}
+#nav_pages_site{
+    width: 1000px;
+    height: 150px;
+    margin-top: 5px;
+    float: left;
+}
+.img_nav_pages_site{
+    width: 131px;
+    height: 100px;
+}
+.content_nav_pages_site{
+    width: 240px;
+    height: 150px;
+    margin-left: 1.5px;
+    text-decoration: none;
+    color: #000000;
+    border-right: 1px solid #b2b2b2;
+    text-align: center;
+    float: left;
+}
+.content_nav_pages_site:hover{
+    background-color: #ffdd00;
+    cursor: pointer;
+    border: none;
+}
+.img_nav_pages_site{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#item_conteudo{
+    background-image: url(../image/editPage.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#item_faleConosco{
+    background-image: url(../image/faleConosco.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#item_produtos{
+    background-image: url(../image/produto.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#item_user{
+    background-image: url(../image/user.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* Fim do menu */
+/* Dados do usuário */
+#cms_data_user{
+    width: 200px;
+    height: 155px;
+    float:left;
+}
+#welcome_user{
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 50px;
+}
+#logout_cms{
+    width: 185px;
+    height: 30px;
+    padding-right: 15px;
+    font-size: 18px;
+    line-height: 50px;
+    margin-top: 35px;
+    text-align: right;
+}
+/* Fim dos dados do usuário */
+/* Alterações na page */
+#alter_cms{
+    width: 1200px;
+    height: 500px;
+}
+#admConteudo{
+    width: 1200px;
+    height: 500px;
+    margin-top: 10px;
+}
+alter_conteudo{
+    width: 1000px;
+    height: 500px;
+    float: left;
+}
+/* Menu */
+#nav_alter_cms{
+    width: 200px;
+    height: 500px;
+    box-shadow: 1px 2px 8px #000000;
+    background-color: #fff;
+    float: left;
+}
+.item_menu_alter_cms{
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+
+.item_menu_alter_cms:hover{
+    cursor: pointer;
+    color: #000000;
+    background-color: #ffdd00;
+}
+/* Rodapé */
+#footer{
+    width: 1200px;
+    height: 90px;
+    margin-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 100px;
+    background-color: #415982;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+/***********************************/
+/* Usuarios */
+#admUsuario{
+    width: 1200px;
+    height: 500px;
+    margin-top: 10px;
+}
+#alter_user{
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    float: left;
+}
+#bodyAdicionarUser{
+    width: 1000px;
+    height: 500px;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+#table_cadastrarUser{
+    width: 650px;
+    height: 20px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 60px;
+}
+#title_admUsuariosCadastrar{
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 25px;
+}
+.txtFrmAdicionarContato{
+    width: 350px;
+    height: 35px;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #467fc9;
+}
+#btnAdicionarUsuario{
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    background-color: #415982;
+    margin-top: 30px;
+    margin-left: 300px;
+    border:none;
+    border-radius: 8px;
+}
+/*******************************/
+/* Fale conosco */
+#admFaleConosco{
+    width: 1200px;
+    height: 500px;
+    margin-top: 10px;
+}
+#tbl_faleConosco{
+    width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+    text-align:  center;
+
+}
+.line_table{
+    width: 25%;
+    border-bottom: 1px solid #a3a3a3;
+    text-align: center;
+}
+.nomes_form{
+    height: 30px;
+    line-height: 30px;
+}
+.nomes_form:hover{
+    cursor: pointer;
+    background-color: #d3d3d3;
+}
+.line_table_title{
+    background-color: #415982;
+    color: #ffffff;
+}
+#title_table{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+/*************************************/
+/* Alterar nível de usuario */
+#admnivelUser{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid #b2b2b2;
+}
+#tblAddnivelUser{
+    width: 500px;
+    height: 50px;
+    margin: auto;
+}
+#txtNomeNivelUsuario{
+    width: 350px;
+    margin-left: 10px;
+    border-radius: 8px;
+
+}
+#btnFrmnivelUsuario{
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    background-color: #415982;
+    margin-top: 10px;
+    border:none;
+    border-radius: 8px;
+}
+#exibirNivelUser{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+#tblDetalhesUser{
+    width: 400px;
+    height: 70px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+/*************************************/
+/* Alterar Usuário */
+#table_editarUser{
+    width: 900px;
+    margin: auto;
+    text-align: center
+}
+#lineTileTable_editarUser{
+    height: 30px;
+    background-color: #415982;
+    line-height: 30px;
+    color: #ffffff;
+}
+.lineTable_editarUser{
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #b2b2b2;
+}
+/*************************************/
+/*Livro mês*/
+#containertbllivro{
+    height: 470px;
+    overflow: auto;
+}
+
+#tableLivroMes{
+    margin: auto;
+    margin-top: 30px;
+    width: 800px;
+    min-height: 100px;
+    text-align: center;
+}
+#titleTableLivroMes{
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    background-color: #415982;
+}
+#firtsTitleTableLivroMes{
+    background-color: #415982;
+    border-top-left-radius: 8px;
+}
+#ultimoTitleTableLivroMes{
+    background-color: #415982;
+    border-top-right-radius: 8px;
+}
+.lineTableLivroMes{
+    border: 1px solid #b2b2b2;
+    height: 25px;
+    line-height: 25px;
+}
+.lineTableLivroMes:hover{
+    background-color: #d8d8d8;
+    cursor: pointer;
+}
+#titleLivroMesEdit{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+/*************************************/
+/*Nossas lojas*/
+#titleNossasLojas{
+    font-size: 20px;
+    text-align: center;
+    margin: 15  px;
+}
+#tblNossasLojas{
+    width: 950px;
+    height: 75px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.txtNovaLoja{
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid blue;
+}
+#btnSalvarLoja{
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 800px;
+    border: none;
+    background-color: #415982;
+    border-radius: 8px;
+    color: #ffffff;
+}
+#tblNossasLojasView{
+    width: 950px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+#titleTblNossasLojasView{
+    height: 30px;
+    background-color: #415982;
+    color:#ffffff;
+    line-height: 30px;
+    font-size: 18px;
+}
+.lineTitleTblNossasLojasView{
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #b2b2b2;
+}
+.lineTitleTblNossasLojasView:hover{
+    cursor: pointer;
+    background-color: #ededed;
+}
+#containerTblLojas{
+	height: 330px;
+    overflow: auto;
+}
+
+/*************************************/
+/*Autor destaque*/
+#titleConfigAutor{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#tblAutorMesAdd{
+    width: 950px;
+    height: 0px;
+    text-align: center;
+    margin: auto;
+}
+#tblAutorMesAdd td{
+    text-align: center;
+    width: 250px;
+}
+#tblAutorMesAdd tr{
+    height: 40px;
+    margin-top: 5px;
+}
+.txtAddAutor{
+    width: 250px;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #4286f4;
+}
+#btnAddAutor{
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 375px;
+    border-radius: 8px;
+    background-color: #415982;
+    color: #ffffff;
+}
+#tblAutorMesSelect{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+
+}
+#scrollTable{
+    max-height: 150px;
+    overflow: auto;
+}
+#lineTitleTblSelectAutorMes{
+    height: 30px;
+    line-height: 30px;
+    background-color: #415982;
+    color: #ffffff;
+}
+.lineTableSelectAutorMesContent{
+    border: 1px solid #b2b2b2;
+    height: auto;
+
+}
+.lineTableSelectAutorMesContent:hover{
+    cursor: pointer;
+    background-color: #ededed;
+
+}
+/*************************************/
+/* Sobre */
+#titleSobre{
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+#tblAddSobre{
+    width: 995px;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+}
+#tblAddSobre tr{
+    height: 100px;
+}
+.addSobre{
+    border: none;
+    border-bottom: 1px solid #4286f4;
+    width: 100px;
+	text-align: center;
+}
+#btnSalvarSobre{
+    width: 100px;
+    height: 40px;
+    margin-left: 450px;
+    border: none;
+    border-radius: 8px;
+    background-color: #415982;
+    color: #ffffff;
+}
+#btnSalvarSobre:hover{
+    cursor: pointer;
+}
+#containertblSobre{
+    height: 150px;
+    overflow: auto;
+    margin-top: 40px;
+}
+#containertblSobre table{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+#titletableSobre{
+    height: 40px;
+    background-color: #415982;
+    color: #ffffff;
+    line-height: 40px;
+}
+#linecontentSobre{
+    border: 1px solid #b2b2b2;
+}
+#linecontentSobre:hover{
+    background-color: #ededed;
+    cursor: pointer;
+}
+/*************************************/
+/* Promocao */
+#titlePromocao{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+#tblAddPromo{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+#tblAddPromo tr{
+    height: 40px;
+}
+#btnPromocaoSalvar{
+    width: 150px;
+    height: 40px;
+    margin-left: 425px;
+    border: none;
+    border-radius: 8px;
+    background-color: #415982;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+#titleTblPromo{
+    height: 40px;
+    background-color: #415982;
+    color: #ffffff;
+    line-height: 40px;
+}
+.linecontentpromo{
+    border: 1px solid #b2b2b2;
+}
+.linecontentpromo:hover{
+    background-color: #ededed;
+    cursor: pointer;
+}
+/*************************************/
+/* Produto */
+/* Inserir livro */
+#tblAddLivro{
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+#tblAddLivro tr{
+    height: 30px;
+}
+.txtAddLivro{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #415982;
+}
+#btnAddLivro{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background-color: #415982;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 700px;
+}
+#titleAddLivro{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 28px;
+}
+/* Visualizar livros */
+#titleViewBooks{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 28px;
+}
+#viewTableBooks{
+    width: 950px;
+    height: auto;
+    max-height: 450px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+
+}
+.imgCapaLivroViewBooks{
+    width: 130px;
+    height: 140px;
+    margin-top: 5px;
+}
+.titleViewBooksTable{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #415982;
+}
+.contentTableViewBooks{
+     border: 1px solid #c2c2c2;
+}
+.lineTableViewBooks{
+    height: 150px;
+}
+.lineTableViewBooks:hover{
+    background-color: #cccccc;
+}
+#containerListBooks{
+	width: auto;
+	height: 450px;
+	overflow:auto;
+}
+/* Subcategoria */
+.titleSubCat {
+    text-align: center;
+    font-size: 25px;
+}
+#tblAddSubCategoria{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+#btnAddSub{
+    width: 100px;
+    height: 40px;
+    margin-left: 850px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #415982;
+    color: #ffffff;
+    line-height: 40px;
+}
+#containerSubADDTable{
+    width: 1000px;
+    margin: auto;
+    min-height: 330px;
+    max-height: 330px;
+    overflow: auto;
+    float: left;   
+}
+/*******************************/
+#containerModalCat{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+#containerAuxCat{
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: 200px;
+    text-align: center;
+}
+#closeModalCat{
+    width: 50px;
+    height: 30px;
+    margin-left: 350px;
+    background-image: url(../image/closeModal.png);
+    background-position: center;
+    background-size: 65% 90%;
+    background-repeat: no-repeat;
+}
+#closeModalCat:hover{
+    background-color: red;
+    background-image: url(../image/closeModalHover.png);
+    cursor: pointer;
+}
+#contentModalCat{
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    text-align: center;
+}
+#contentModalCat h1{
+    font-size: 25px;
+}
+#contentModalCat table{
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+#contentModalCat tr{
+    height: 50px;
+}
+#btnEditSubCat{
+    width: 100px;
+    padding: 15px;
+    height: 45px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    background-color: #415982;
+    color: #ffffff;
+}
+#viewSubCat{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+#viewSubCat tr{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #c2c2c2;
+}
+.lineViewSubCateTbl:hover{
+    background-color: #c2c2c2;
+    cursor: pointer;
+}
+.imgSubCat{
+    width: 25px;
+    height: 25px;   
+}
+.titleViewSubCat{
+    background-color: #415982;
+    cursor: default;
+    color: #ffffff;
+    font-size: 20px;
+}
+/*********************************************************************/
+/* GRÁFICO */
+#titleGrafic{
+    font-size: 25px;
+    text-align: center;
+}
+#graficoClick{
+    width: 900px;
+    height: 480px;
+    margin-left: 30px;
+    float: left;
+   
+}
+.dadosGraficos{
+    height: 50px;
+    background-color: #ffdd00;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #415982;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#lineGrafico{
+    border-bottom: 1px solid #c2c2c2;
+}
+#nomeLivroEsta{
+    width: 100px;
+    text-align: center;
+    color: #415982;
+}
+#porcentagemLivroEsta{
+    width: 800px;
+}
